@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Grape+Nuts&family=Henny+Penny&family=Splash&display=swap');
+
+.mood-grid {
+
+    
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 4px;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+   color: mediumpurple;
+
+}
+
+.giggly {
+ border: 2px solid yellow;
+
+
+}
+
+
+.nonchalant {
+  border: 2px solid lightblue;
+  
+}
+
+.aware {
+  border: 2px solid lightgreen;
+ 
+}
+
+.centered {
+  border: 2px solid orange;
+  
+}
+
+.inspired {
+  border: 2px solid violet;
+
+}
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.35);
+}
+
+
+
+body{
+
+    font-family: "Henny Penny", system-ui;
+    color: palevioletred;
+    background-color: black;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
